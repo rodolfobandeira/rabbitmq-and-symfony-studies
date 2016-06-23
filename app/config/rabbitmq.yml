@@ -1,0 +1,27 @@
+old_sound_rabbit_mq:
+    connections:
+        default:
+            host:     'localhost'
+            port:     5672
+            user:     'guest'
+            password: 'guest'
+            vhost:    '/'
+            lazy:     false
+            connection_timeout: 3
+            read_write_timeout: 3
+
+            # requires php-amqplib v2.4.1+ and PHP5.4+
+            keepalive: false
+
+            # requires php-amqplib v2.4.1+
+            heartbeat: 0
+    producers:
+        hello_rabbitmq:
+            connection:       default
+            exchange_options: {name: 'hello', type: direct}
+    consumers:
+        hello_rabbitmq:
+            connection:       default
+            exchange_options: {name: 'hello', type: direct}
+            queue_options:    {name: 'hello'}
+            callback:         hello_rabbitmq_service
