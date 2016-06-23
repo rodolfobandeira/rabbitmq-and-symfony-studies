@@ -11,6 +11,12 @@ A simple repository to learn how to use RabbitMQ and Symfony 2.8
 
 5) Try to create a producer and execute a consumer.
 
+6) `php app/console server:run 0.0.0.0:8000`
+
+7) Open in the browser. ex: http://127.0.0.1:8000
+
+8) `php app/console rabbitmq:consumer hello`
+
 https://twitter.com/rodolfobandeira
 
 -
