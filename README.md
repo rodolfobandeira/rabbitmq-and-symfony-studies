@@ -12,3 +12,11 @@ A simple repository to learn how to use RabbitMQ and Symfony 2.8
 5) Try to create a producer and execute a consumer.
 
 https://twitter.com/rodolfobandeira
+
+-
+
+*Reference:*
+
+- Thanks for the Presenter Kacper Gunia (https://twitter.com/cakper) 
+- Thanks Youtube to make possible I watch Kacper's presentation: (https://www.youtube.com/watch?v=cha92Og9M5A)
+- Thanks Alvaro Videla for the effort around RabbitMQ and PHP (https://twitter.com/old_sound)
