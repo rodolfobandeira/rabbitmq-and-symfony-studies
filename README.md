@@ -1,4 +1,2 @@
-rabbitmq-and-symfony-studies
-============================
-
-A Symfony project created on June 22, 2016, 11:36 pm.
+# rabbitmq-and-symfony-studies
+A simple repository to learn how to use RabbitMQ and Symfony 2.8
